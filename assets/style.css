@@ -10,6 +10,12 @@ body {
 
 header {
 	background-color: var(--color--background);
+	padding-block: calc(5 * var(--base-size));
+}
+
+footer {
+	padding-top: var(--base-size);
+	padding-bottom: calc(5 * var(--base-size));
 }
 
 .gutters {
