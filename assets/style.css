@@ -1,6 +1,6 @@
 
 body {
-	--base-size: 12px;
+	--base-size: 16px;
 	--gutter-size: calc(3 * var(--base-size));
 
 	--color--primary: #333333;
@@ -27,4 +27,11 @@ footer {
 
 .gutters {
 	padding-inline: var(--gutter-size);
+}
+
+@media screen and (min-width: 600px) {
+	:root {
+		--gutter-size: calc(3 * var(--base-size));
+		--base-size: 20px;
+	}
 }
