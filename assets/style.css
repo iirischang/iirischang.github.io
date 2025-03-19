@@ -1,37 +1,38 @@
 
 body {
-	--base-size: 16px;
-	--gutter-size: calc(3 * var(--base-size));
-
-	--color--primary: #333333;
-	--color--secondary: gold;
-	--color--background: tomato;
-
-	font-size: 20px;
+	/* text-align: center; */
+	margin: 100px;
+	background-color: #292929;
+	color: #FFFAED;
+	font-family: 'Instrument Serif';
 }
 
-header {
-	background-color: var(--color--background);
-	padding-block: calc(5 * var(--base-size));
+h2 {
+	margin-bottom: 100px;
+	font-size: 100px;
 }
 
-#main-content {
-	block-size: 70vh;
+p {
+	font-size: 50px;
 }
 
-footer {
-	background-color: var(--color--secondary);
-	padding-top: var(--base-size);
-	padding-bottom: calc(5 * var(--base-size));
+.pj1:hover {
+	color: #f84816;
 }
 
-.gutters {
-	padding-inline: var(--gutter-size);
+.pj2:hover {
+	color: #95E744;
 }
 
-@media screen and (min-width: 600px) {
-	:root {
-		--gutter-size: calc(3 * var(--base-size));
-		--base-size: 20px;
-	}
+.pj3:hover {
+	color: #62c2b1;
+}
+
+.pj4:hover {
+	color: #ff0000;
+}
+
+.footer {
+	margin-top: 100px;
+	font-size: 30px;
 }
