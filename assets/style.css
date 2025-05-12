@@ -31,11 +31,17 @@ header {
 	z-index: 100;
 }
 
+header nav ul {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+}
+
 .main-grid {
 	grid-area: main;
 	height: 100%;
 	overflow-y: auto;
-	padding: 80px 40px;
+	/* padding: 80px 40px; */
 }
 
 .content-container {
@@ -124,13 +130,23 @@ header {
 .vertical-title {
 	position: absolute;
 	white-space: nowrap;
-	transform: rotate(270deg);
-	transform-origin: center;
+	/* transform: rotate(-270deg); */
+	transform-origin: center;/
 	font-size: 14px;
 	letter-spacing: 1px;
 	bottom: 50%;
 	left: 50%;
-	transform: translate(-50%, 50%) rotate(270deg);
+	transform: translate(-50%, 50%) rotate(-270deg);
 	width: 300px;
 	text-align: center;
+}
+
+.subtitle {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.arrow-link {
+	text-align: end;
+	font-size: 50px;
 }
