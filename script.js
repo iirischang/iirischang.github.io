@@ -50,4 +50,5 @@ menubarItems.forEach(item => {
 		}
 	});
 });
+contentContainer.style.visibility = 'visible';
 });
