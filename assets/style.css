@@ -28,6 +28,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	padding: 20px;
+	padding-right: 280px;
 	z-index: 100;
 }
 
@@ -53,7 +54,7 @@ header nav ul {
 
 .greeting-container {
 	align-self: center;
-	padding-right: 300px;
+	padding-right: 400px;
 	padding-left: -120px;
 }
 
@@ -97,6 +98,7 @@ header nav ul {
 	justify-content: flex-end;
 	padding: 40px;
 }
+
 
 .project-overlay {
 	position: absolute;
@@ -160,24 +162,109 @@ header nav ul {
 	background-color: #f84816;
 }
 
+.menubar-item:nth-child(2) {
+	background-color: #9B9B9B;
+}
+
+.menubar-item:nth-child(2):hover {
+	background-color: #95e744;
+	color: #1C1C1C;
+}
+
+.menubar-item:nth-child(3) {
+	background-color: #777777;
+}
+
+.menubar-item:nth-child(3):hover {
+	background-color: #E3ED55;
+	color: #1C1C1C;
+}
+
+.menubar-item:nth-child(4) {
+	background-color: #484848;
+}
+
+.menubar-item:nth-child(4):hover {
+	background-color: #ed1c24;
+}
+
+.menubar-item:nth-child(5) {
+	background-color: #3A3A3A;
+}
+
+.menubar-item:nth-child(5):hover {
+	background-color: #536bf1;
+}
+
 .subtitle {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
 
-.arrow-link {
+.arrow-link1 {
 	text-align: end;
 	font-size: 50px;
 	z-index: 2;
 }
 
-.arrow-link:hover {
+.arrow-link1:hover {
 	text-align: end;
 	font-size: 50px;
 	z-index: 2;
 	color: #f84816;
 }
 
+.arrow-link2 {
+	text-align: end;
+	font-size: 50px;
+	z-index: 2;
+}
+
+.arrow-link2:hover {
+	text-align: end;
+	font-size: 50px;
+	z-index: 2;
+	color: #95e744;
+}
+
+.arrow-link3 {
+	text-align: end;
+	font-size: 50px;
+	z-index: 2;
+}
+
+.arrow-link3:hover {
+	text-align: end;
+	font-size: 50px;
+	z-index: 2;
+	color: #E3ED55;
+}
+
+.arrow-link4 {
+	text-align: end;
+	font-size: 50px;
+	z-index: 2;
+}
+
+.arrow-link4:hover {
+	text-align: end;
+	font-size: 50px;
+	z-index: 2;
+	color: #f84816;
+}
+
+.arrow-link5 {
+	text-align: end;
+	font-size: 50px;
+	z-index: 2;
+}
+
+.arrow-link5:hover {
+	text-align: end;
+	font-size: 50px;
+	z-index: 2;
+	color: #536bf1;
+}
 
 .project-content {
 	z-index: 2;
