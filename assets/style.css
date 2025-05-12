@@ -13,7 +13,7 @@ body {
 
 h2 {
 	margin-bottom: 50px;
-	font-size: 40px;
+	font-size: 30px;
 }
 
 p {
@@ -271,3 +271,95 @@ header nav ul {
 	z-index: 2;
 	margin-bottom: 20px;
 }
+
+
+
+
+
+/* Media Queries */
+/* Mobile Media Query */
+@media (max-width: 768px) {
+	body {
+		margin: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	header {
+		position: relative;
+		margin-bottom: 20px;
+		padding: 10px;
+	}
+
+	p {
+		font-size: 20px;
+		text-align: left;
+	}
+
+	.year {
+		padding-left: 20px;
+		font-size: 20px;
+		margin-top: -120px;
+	}
+
+	.greeting-container p:first-child {
+		font-size: 35px;
+		margin-bottom: 30px;
+	}
+
+	header nav ul {
+		display: flex;
+		flex-direction: column;
+		gap: 2px;
+		padding: 0;
+		margin-bottom: -200px;
+		list-style: none;
+		align-items: end;
+	}
+
+	.greeting-container {
+		text-align: center;
+		padding: 20px;
+	}
+
+	.menubar {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+		margin-top: -150px;
+		padding: 20px 0;
+	}
+
+	.menubar-item {
+		width: 100%;
+		/* margin: 5px 0; */
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.vertical-title {
+		transform: none;
+		position: relative;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		font-size: 16px;
+		letter-spacing: 1px;
+		padding: 10px 0;
+	}
+
+	.project-open {
+		display: none !important;
+	}
+
+	.project-bg {
+		display: none !important;
+	}
+
+	}
