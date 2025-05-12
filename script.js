@@ -52,3 +52,17 @@ menubarItems.forEach(item => {
 });
 contentContainer.style.visibility = 'visible';
 });
+
+
+function controlMenu(itemNumber, link) {
+	if (window.innerWidth <= 768) {
+		// mobile
+		window.location.href = link;
+	} else {
+		// desktop
+		const projectOpen = document.querySelector(`.project-00${itemNumber}`);
+		if (projectOpen) {
+			projectOpen.classList.toggle('active');
+		}
+	}
+}
